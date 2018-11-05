@@ -1,6 +1,16 @@
 ---
 title: "Min fina titel"
+
+views:
+    byline:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
+
 Min me-sida i kursen design
 =========================
 

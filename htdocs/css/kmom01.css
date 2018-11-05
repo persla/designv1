@@ -90,3 +90,18 @@ figure.figure.right {
 .site-logo {
     display: none;
 }
+
+.byline {
+    float: right;
+    background-color: #fff;
+    padding-bottom: 5px;
+    width: 370px;
+    height: 60px;
+    border: 1px solid #999;
+}
+
+.me-byline {
+    float: left;
+    padding: 5px;
+    width: 50px;
+}
