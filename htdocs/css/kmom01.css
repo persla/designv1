@@ -85,6 +85,7 @@ figure.figure.right {
 .site-logo-text a {
     text-decoration: none;
     font-size: 2em;
+    color: gray;
 }
 
 .site-logo {
@@ -104,4 +105,13 @@ figure.figure.right {
     float: left;
     padding: 5px;
     width: 50px;
+}
+
+.outer-wrap.outer-wrap-flash-message {
+    clear:both;
+    border: 2px solid blue;
+    width: 300px;
+}
+main.region-main {
+    clear:both;
 }
