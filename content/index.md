@@ -6,20 +6,25 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/jag-barn.jpg?w=300" class="right" caption="Bild på mig när jag var liten"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Mitt namn är Lars Persson och bor i Umeå och jag arbetar som lärare på en gymnasieskola i stan.
+Jag har två barn, Hedda som går sista året på samhällsvetenskapligaprogrammet och
+Tor som läser tredje terminen på läkarprogrammet.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Trots en lång karriär i skolan så trivs jag med mitt jobb, men söker hela tiden
+nya utmaningar. Därför blev jag glad när jag såg att det fanns en utbildning i
+webbprogramering på distans på Blekinge tekniska högskola. Informationsteknologi
+har alltid intresserat mig dock hittills i huvudsak från användarsidan.
+Digitala verktyg och lärplattformar(såsom det internationella google classroom och svenska Schoolsoft)
+för skolan växer upp som svampar ur jorden och alla har styrkor och svagheter.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Min vision är att genom denna utbildning i webbprogramering på BHT få kunskaper och verktyg för att kunna bygga de optimala digitala
+pedagogiskaverktygen och den bästa lärplattformen som berikar och underlättar arbetet i skolan för
+både lärare och elever samt att jag genom detta ska bli ekonomiskt oberoende:).
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Webbdesign har jag hittils bara stött på från användarsidan så nu ska det bli intressant och lärorikt att få testa och bygga design
+utifrån programeringsperspektivet.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Lars
