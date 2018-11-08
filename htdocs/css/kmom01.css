@@ -15,18 +15,17 @@
     display: none;
 }
 
-https://fonts.googleapis.com/css?family=Garamond
-https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 html {
     background-color: gray;
-    font-family: 'Garamond';font-size: 16px;
+    font-family: "EB+Garamond" ,sans-serif;
     font-size: 100%;
 }
 
 body {
     background-color: #e9e2d9;
-    font-family: 'Garamond';font-size: 16px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -51,33 +50,70 @@ h1 {
     border: gray solid 2px;
 }
 
-.rm-default li {
-    display: inline-block;
-    padding: 10px;
-}
-
-ul.my-navbar.rm-default.rm-desktop {
-    float: inline-start;
-}
-
-figure.figure.right {
-    float: right;
-    clear: both;
-}
-
 .outer-wrap.outer-wrap-footer {
     clear: both;
+    background-color: bisque;
 }
+
 .block.site-footer {
    clear: both;
    text-align: center;
 }
 
-.region-sidebar-left {
+.row::after {
+    content:"";
+    display:block;
+    clear: both;
+}
+.rm-default li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.rm-default a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+
+ul.my-navbar.rm-default.rm-desktop {
+    float: inline-start;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+figure.figure.right {
+    float: right;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar {
     display: inline;
     float: left;
     width: 28.125%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
 }
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 65.625%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+    margin-left: 4.6875%;
+}
+
+.next-previous {
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+
 .site-logo-text {
     float: left;
     text-decoration: none;
@@ -88,16 +124,18 @@ figure.figure.right {
     color: gray;
 }
 
+article {
+    box-sizing: border-box;
+}
+
 .site-logo {
     display: none;
 }
 
 .byline {
-    float: right;
     background-color: #fff;
-    padding-bottom: 5px;
-    width: 370px;
-    height: 60px;
+    width: 380px;
+    height: 63px;
     border: 1px solid #999;
 }
 
@@ -112,6 +150,11 @@ figure.figure.right {
     border: 2px solid blue;
     width: 300px;
 }
-main.region-main {
-    clear:both;
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+iframe {
+    max-width: 100%;
+    max-height: 100%;
 }

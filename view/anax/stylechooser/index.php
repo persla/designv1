@@ -24,6 +24,7 @@ namespace Anax\View;
                         $selected = $key === $activeStyle ? "selected=\"selected\"" : null;
                         ?>
                         <option <?= $selected ?> value="<?= $key ?>"><?= "[ $key ] - {$value["shortDescription"]}" ?></option>
+                        <?=var_dump($key);?>
                     <?php endforeach; ?>
                 </select>
             </label>
