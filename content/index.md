@@ -3,7 +3,7 @@ title: "Min fina titel"
 
 views:
     byline:
-        region: sidebar-right
+        region: after-main
         template: anax/v2/block/default
         data:
             meta:
