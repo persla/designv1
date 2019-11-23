@@ -344,7 +344,6 @@ template {
 }
 html {
   overflow-y: scroll;
-  overflow-x: hidden;
   background-color: #424242;
 }
 body {
@@ -5358,6 +5357,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-left: auto;
   max-width: 100%;
   margin-bottom: 24px;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
+}
+.inner-wrap-footer .row {
+  max-width: 100%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
