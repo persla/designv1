@@ -344,6 +344,7 @@ template {
 }
 html {
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #424242;
 }
 body {
@@ -5404,7 +5405,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
   margin-bottom: 24px;
-  padding-left: 2px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5469,6 +5469,17 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.region-flash-message {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  background-color: lightblue;
+  box-sizing: border-box;
+  border: darkblue solid 2px;
+  padding-left: 10px;
 }
 .footer-column {
   display: inline;
@@ -5566,6 +5577,7 @@ iframe {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    padding-left: 10px;
   }
   .region-main.has-sidebar-left.has-sidebar-right {
     display: inline;
@@ -5611,6 +5623,9 @@ iframe {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+  }
+  .region-after-main {
+    display: none;
   }
 }
 /**
@@ -5715,10 +5730,6 @@ iframe {
   .footer-column-1,
   .footer-column-2 {
     border-right: 0px;
-    border-bottom: 1px solid #666;
-  }
-  select {
-    width: 95%;
   }
   fieldset {
     padding: 0px;

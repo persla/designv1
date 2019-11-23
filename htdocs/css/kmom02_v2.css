@@ -353,11 +353,6 @@ body {
   background-color: #fff;
   line-height: 1.5;
 }
-.row::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 /**
  * Font Awesome.
  */
@@ -5295,10 +5290,6 @@ iframe {
   .footer-column-1,
   .footer-column-2 {
     border-right: 0px;
-    border-bottom: 1px solid #666;
-  }
-  select {
-    width: 95%;
   }
   fieldset {
     padding: 0px;
