@@ -5730,7 +5730,9 @@ iframe {
     display: none;
   }
   figure.figure.right {
+    box-sizing: border-box;
     display: block;
+    float: none;
   }
   .footer-column-1,
   .footer-column-2 {

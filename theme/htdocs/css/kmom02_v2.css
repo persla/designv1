@@ -347,11 +347,22 @@ html {
   background-color: #424242;
 }
 body {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0;
   color: #333;
   background-color: #fff;
+  font: 100.01%/1 "EB+Garamond", sans-serif;
   line-height: 1.5;
+}
+.row {
+  display: block;
+  width: 100%;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 /**
  * Font Awesome.
@@ -5285,7 +5296,9 @@ iframe {
     display: none;
   }
   figure.figure.right {
+    box-sizing: border-box;
     display: block;
+    float: none;
   }
   .footer-column-1,
   .footer-column-2 {

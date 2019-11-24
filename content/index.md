@@ -19,8 +19,8 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 [FIGURE src="image/jag-barn.jpg?w=300" class="right" caption="Bild på mig när jag var liten"]
 
 Mitt namn är Lars Persson och bor i Umeå och jag arbetar som lärare på en gymnasieskola i stan.
-Jag har två barn, Hedda som går sista året på samhällsvetenskapligaprogrammet och
-Tor som läser tredje terminen på läkarprogrammet.
+Jag har två barn, Hedda som jobbar som konsult och
+Tor som läser femte terminen på läkarprogrammet.
 
 Trots en lång karriär i skolan så trivs jag med mitt jobb, men söker hela tiden
 nya utmaningar. Därför blev jag glad när jag såg att det fanns en utbildning i
