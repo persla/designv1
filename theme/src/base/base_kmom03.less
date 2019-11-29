@@ -3,8 +3,16 @@
  */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @bgColorHtml: #424242;
-@bgColorBody: #fff;
+@bgColorBody: #E8E8E8;
 @colorBody: #333;
+@bginnerWrap: #F5F5F5;
+@bginnerWrapFooter: #113909;
+@innerWrapFooter: #ddd;
+@bginnerWrapHeader: @bginnerWrap;
+@innerWrapHeader: @colorBody;
+@bgregionMain: @bginnerWrap;
+@bgregionSidebar: @bginnerWrap;
+@bgregionAfterMain: @bginnerWrap;
 // @fontFamilyBody: "EB+Garamond" ,sans-serif;
 
 html {
@@ -20,12 +28,40 @@ body {
     color: @colorBody;
     // background-color: @bgColorBody;
     #desinax-hgrid.font(@fontSizeBody);
-    background-color: #E8E8E8;
+    background-color: @bgColorBody;
     // font: 100.01%/1 @fontFamilyBody;
     // line-height: 1.5;
 }
+
 .inner-wrap {
-    background-color: #F5F5F5;
+    background-color: @bginnerWrap;
+}
+
+.rm-default li {
+    background-color: @bginnerWrap;
+    color: @colorBody;
+}
+
+.inner-wrap-footer {
+    background-color: @bginnerWrapFooter;
+    color: @innerWrapFooter;
+}
+
+.inner-wrap-header {
+    background-color: @bginnerWrapHeader;
+    color: @innerWrapHeader;
+}
+
+.region-main {
+    background-color: @bgregionMain;
+}
+.region-sidebar-left,
+.region-sidebar-right, {
+    background-color: @bgregionSidebar;
+}
+
+.region-after-main {
+    background-color: @bgregionAfterMain;
 }
 
 // Activate grid and affect all typographic elements
