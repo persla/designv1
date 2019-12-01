@@ -5560,7 +5560,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: none;
 }
 article {
-  box-sizing: border-box;
+  padding-right: 20px;
 }
 .rm-default li {
   text-decoration: none;
