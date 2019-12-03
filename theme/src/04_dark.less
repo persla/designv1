@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design 04_dark.
  *
  * This stylesheet is for the design course and kmom01. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -9,8 +9,9 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
 @import "normalize.css/normalize.less";
-@import "module/kmom02.less";
+// @import "module/kmom02.less";
 @import "module/stylechooser.less";  // Just an example module
 
 
@@ -20,7 +21,7 @@
  */
 //@import "base/base_default.less";
 // @import "base/base.less";
-@import "base/base_kmom03.less";
+@import "base/base_kmom04.less";
 
 
 /**
@@ -64,14 +65,28 @@
  * My own settings, not currently in their own module.
  */
  // @img-flash: "image/theme/lapport.png?width=1100&height=150&crop-to-fit&area=0,0,30,0";
- @fontFamilyHeadings:  @fontFamilyGaramond;
- @fontFamilyBody:       "Tahoma" ,sans-serif;
+ @fontFamilyHeadings:  Univers, sans-serif;;
+ @fontFamilyBody:      Univers, sans-serif;
  @fontFamilyCode:      @fontFamilyCourier;
 
+ @bgColorHtml: #424242;
+ @bgColorBody: #121212 ;
+ @colorBody: rgba(255, 255, 255, 0.87);
+ @bginnerWrap: #1E1E1E;
+ @bginnerWrapFooter: #1E1E1E;
+ @innerWrapFooter: rgba(255, 255, 255, 0.50);
+ @siteLogoText: #03DAC5;
+ @bginnerWrapHeader: @bginnerWrap;
+ @innerWrapHeader: @colorBody;
+ @bgregionMain: @bginnerWrap;
+ @bgregionSidebar: @bginnerWrap;
+ @bgregionAfterMain: @bginnerWrap;
 
- @colorH1BorderBottom: #113909;
- @colorH2BorderBottom: #113909;
- @colorH3BorderBottom: #113909;
- @colorH4BorderBottom: #113909;
- @colorH5BorderBottom: #113909;
- @colorH6BorderBottom: #113909;
+
+ @colorH1BorderBottom: #BB86FC;
+ @colorH2BorderBottom: #BB86FC;
+ @colorH3BorderBottom: #BB86FC;
+ @colorH4BorderBottom: #BB86FC;
+ @colorH5BorderBottom: #BB86FC;
+ @colorH6BorderBottom: #BB86FC;
+ @bgColorCodeInline: #1E1E1E;

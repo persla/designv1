@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design 04_colorful.
  *
  * This stylesheet is for the design course and kmom01. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -9,8 +9,10 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600|Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap');
 @import "normalize.css/normalize.less";
-@import "module/kmom02.less";
+// @import "module/kmom02.less";
 @import "module/stylechooser.less";  // Just an example module
 
 
@@ -20,7 +22,7 @@
  */
 //@import "base/base_default.less";
 // @import "base/base.less";
-@import "base/base_kmom03.less";
+@import "base/base_kmom04.less";
 
 
 /**
@@ -64,14 +66,29 @@
  * My own settings, not currently in their own module.
  */
  // @img-flash: "image/theme/lapport.png?width=1100&height=150&crop-to-fit&area=0,0,30,0";
- @fontFamilyHeadings:  @fontFamilyGaramond;
- @fontFamilyBody:       "Tahoma" ,sans-serif;
+ // @fontFamilyHeadings:  'Six Caps', sans-serif;
+ // @fontFamilyBody:       'Josefin Slab', serif;
+ @fontFamilyHeadings:  'Permanent Marker', cursive;
+ @fontFamilyBody:       'Open Sans', sans-serif;
  @fontFamilyCode:      @fontFamilyCourier;
 
+ @bgColorHtml: #424242;
+ @bgColorBody: #FFA08C;
+ @colorBody: #333;
+ @bginnerWrap: #FFC88C;
+ @bginnerWrapFooter: #5C8FA3;
+ @innerWrapFooter: #ddd;
+ @hamburgerMenu: black;
+ @siteLogoText: #67BB86;
+ @bginnerWrapHeader: @bginnerWrap;
+ @innerWrapHeader: @colorBody;
+ @bgregionMain: @bginnerWrap;
+ @bgregionSidebar: @bginnerWrap;
+ @bgregionAfterMain: @bginnerWrap;
 
- @colorH1BorderBottom: #113909;
- @colorH2BorderBottom: #113909;
- @colorH3BorderBottom: #113909;
- @colorH4BorderBottom: #113909;
- @colorH5BorderBottom: #113909;
- @colorH6BorderBottom: #113909;
+ @colorH1BorderBottom: #5C8FA3;
+ @colorH2BorderBottom: #5C8FA3;
+ @colorH3BorderBottom: #5C8FA3;
+ @colorH4BorderBottom: #5C8FA3;
+ @colorH5BorderBottom: #5C8FA3;
+ @colorH6BorderBottom: #5C8FA3;

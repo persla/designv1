@@ -2,18 +2,18 @@
  * Base style to affect HTML elements on a general scale.
  */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-@bgColorHtml: #424242;
-@bgColorBody: #E8E8E8;
-@colorBody: #333;
-@bginnerWrap: #F5F5F5;
-@bginnerWrapFooter: #113909;
-@innerWrapFooter: #ddd;
-@hamburgerMenu: black;
-@bginnerWrapHeader: @bginnerWrap;
-@innerWrapHeader: @colorBody;
-@bgregionMain: @bginnerWrap;
-@bgregionSidebar: @bginnerWrap;
-@bgregionAfterMain: @bginnerWrap;
+// @bgColorHtml: #424242;
+// @bgColorBody: #E8E8E8;
+// @colorBody: #333;
+// @bginnerWrap: #F5F5F5;
+// @bginnerWrapFooter: #113909;
+// @innerWrapFooter: #ddd;
+// @hamburgerMenu: black;
+// @bginnerWrapHeader: @bginnerWrap;
+// @innerWrapHeader: @colorBody;
+// @bgregionMain: @bginnerWrap;
+// @bgregionSidebar: @bginnerWrap;
+// @bgregionAfterMain: @bginnerWrap;
 // @fontFamilyBody: "EB+Garamond" ,sans-serif;
 
 html {
@@ -43,11 +43,6 @@ body {
     color: @colorBody;
 }
 
-.inner-wrap-footer {
-    background-color: @bginnerWrapFooter;
-    color: @innerWrapFooter;
-}
-
 .inner-wrap-header {
     background-color: @bginnerWrapHeader;
     color: @innerWrapHeader;
@@ -74,9 +69,13 @@ body {
     max-height: 150px;
 }
 
-.rm-max .rm-small .rm-button {
-    color: @hamburgerMenu;
+.inner-wrap-footer {
+    background-color: @bginnerWrapFooter;
+    color: @innerWrapFooter;
 }
+// .rm-max .rm-small .rm-button {
+//     color: @hamburgerMenu;
+// }
 
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();

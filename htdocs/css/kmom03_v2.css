@@ -378,6 +378,13 @@ body {
 .region-after-main {
   background-color: #F5F5F5;
 }
+.region-flash {
+  background-color: #E8E8E8;
+  max-height: 150px;
+}
+.rm-max .rm-small .rm-button {
+  color: black;
+}
 h1,
 h2,
 h3,
@@ -5527,7 +5534,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   text-align: center;
 }
 .inner-wrap-footer {
-  color: #ddd;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -5702,7 +5708,7 @@ iframe {
     right: 24px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
   .site-logo {
     display: none;
   }
@@ -5724,7 +5730,7 @@ iframe {
     padding: 0;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
   .rm-small {
     display: block;
   }

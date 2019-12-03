@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design 04_minimalistic.
  *
  * This stylesheet is for the design course and kmom01. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -9,8 +9,9 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
 @import "normalize.css/normalize.less";
-@import "module/kmom02.less";
+// @import "module/kmom02.less";
 @import "module/stylechooser.less";  // Just an example module
 
 
@@ -20,7 +21,7 @@
  */
 //@import "base/base_default.less";
 // @import "base/base.less";
-@import "base/base_kmom03.less";
+@import "base/base_kmom04.less";
 
 
 /**
@@ -64,14 +65,26 @@
  * My own settings, not currently in their own module.
  */
  // @img-flash: "image/theme/lapport.png?width=1100&height=150&crop-to-fit&area=0,0,30,0";
- @fontFamilyHeadings:  @fontFamilyGaramond;
- @fontFamilyBody:       "Tahoma" ,sans-serif;
+ @fontFamilyHeadings:  'Montserrat', sans-serif;;
+ @fontFamilyBody:       'Oswald', sans-serif;
  @fontFamilyCode:      @fontFamilyCourier;
 
+ @bgColorHtml: #424242;
+ @bgColorBody: #87BC30;
+ @colorBody: #333;
+ @bginnerWrap: #A5D557;
+ @bginnerWrapFooter: #355500;
+ @innerWrapFooter: #ddd;
+ @siteLogoText: #4D7C02;
+ @bginnerWrapHeader: @bginnerWrap;
+ @innerWrapHeader: @colorBody;
+ @bgregionMain: @bginnerWrap;
+ @bgregionSidebar: @bginnerWrap;
+ @bgregionAfterMain: @bginnerWrap;
 
- @colorH1BorderBottom: #113909;
- @colorH2BorderBottom: #113909;
- @colorH3BorderBottom: #113909;
- @colorH4BorderBottom: #113909;
- @colorH5BorderBottom: #113909;
- @colorH6BorderBottom: #113909;
+ @colorH1BorderBottom: #87BC30;
+ @colorH2BorderBottom: #87BC30;
+ @colorH3BorderBottom: #87BC30;
+ @colorH4BorderBottom: #87BC30;
+ @colorH5BorderBottom: #87BC30;
+ @colorH6BorderBottom: #87BC30;
