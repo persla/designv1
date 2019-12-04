@@ -9,25 +9,11 @@
  * Internal self contained modules, save in directory module/.
  */
 @font-face {
-  font-family: 'Josefin Slab';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Josefin Slab SemiBold'), local('JosefinSlab-SemiBold'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-mwjwOK3Ps5GSJlNNkMalvdSq6Kerg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Six Caps';
+  font-family: 'Capriola';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Six Caps'), local('SixCaps'), url(https://fonts.gstatic.com/s/sixcaps/v10/6ae_4KGrU7VR7bNmaYcV_3E.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+  src: local('Capriola Regular'), local('Capriola-Regular'), url(https://fonts.gstatic.com/s/capriola/v7/wXKoE3YSppcvo1PDlk_7JeQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Permanent Marker';
@@ -370,7 +356,7 @@ body {
   margin: 0 auto;
   padding: 0;
   color: #333;
-  font: 16px/1.5 'Open Sans', sans-serif;
+  font: 16px/1.5 'Capriola', sans-serif;
   background-color: #FFA08C;
 }
 .inner-wrap {
@@ -5725,7 +5711,7 @@ iframe {
     right: 24px;
   }
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1220px) {
   .site-logo {
     display: none;
   }
@@ -5747,7 +5733,7 @@ iframe {
     padding: 0;
   }
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 930px) {
   .rm-small {
     display: block;
   }

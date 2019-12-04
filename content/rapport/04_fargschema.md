@@ -4,7 +4,7 @@
 # Färgpalett och typografi hos svenska nyhetssajter
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/rapport/04_fargschema`.
 ##Syfte
-Syftet med den här rapporten är att analysera färgpaletten och typografin i headerelementet på ett urval av svenska nyhetssajter
+Syftet med den här rapporten är att analysera färgpaletten och typografin i headerelementet på ett urval av svenska nyhetssajter.
 ##Urval
 Orsaken till studiens fokus på nyhetssajter är deras centrala funktion i en demokrati som en förmedlare av nyheter, debatt och en försvarare av det fria ordet. Detta gör att det har en stor betydelse för medborgarna att vilja gå in på dessa sidor och ta till sig nyheter. Där har färgval och typografi en betydelsefull funktion.
 
@@ -16,7 +16,7 @@ Följande nyhetssajter har valts ut som objekt i denna studie:
 4. Omni
 5. SVT Nyheter
 
-Urvalet är baserat på idgs.se topplista över Sveriges bästa sajter och nättjänster 2019 där dessa sajter hamnar på topp fem i kategorin nyheter enligt rangordningen ovan, rangordningen är baserad på en utsedd jurys uppfattningar och är således subjekt, men eftersom juryn består av International Data Group (IDG) som är en av världens största utgivare av it-relaterad information så är det rimligt att anta att kompetensen är hög för att kunna göra sådana bedömningar. Juryn har även tagit hänsyn till antalet unika besökare på respektive sajt där ovan nämnda hamnar i också hamnar i topp. Detta medför att dessa fem nyhetssajter har en central funktion för den svenska demokratin och eftersom en sajts färgpalett och typografi har stor betydelse för människors vilja att ta till sig innehållet så har dessa sajters val en betydelse för demokratin i Sverige.
+Urvalet är baserat på idgs.se topplista över Sveriges bästa sajter och nättjänster 2019 där dessa webbplatser hamnar på topp fem i kategorin nyheter enligt rangordningen ovan, rangordningen är baserad på en utsedd jurys uppfattningar och är således subjekt, men eftersom juryn består av International Data Group (IDG) som är en av världens största utgivare av it-relaterad information så är det rimligt att anta att kompetensen är hög för att kunna göra sådana bedömningar. Juryn har även tagit hänsyn till antalet unika besökare på respektive sajt där ovan nämnda hamnar i också hamnar i topp. Detta medför att dessa fem nyhetssajter har en central funktion för den svenska demokratin och eftersom en sajts färgpalett och typografi har stor betydelse för människors vilja att ta till sig innehållet så har dessa sajters val en betydelse för demokratin i Sverige.
 
 Urvalet av nyhetssajternas  headerelement är baserad på teorin om F-mönstret. Enligt den läser inte människor en sida initialt utan scannar den. Eyetracking visualiseringar visar att användare ofta “läser” webbplatsinnehåll i ett F-format mönster: två horisontella ränder följt av en vertikal rand. Vilket innebär att innehållet i hedern har mycket stor betydelse för att förmå besökarna att stanna kvar på webbplatsen. Typografi och färgpalett har under denna initiala scanning en stor betydelse för att skapa ett välkomnande och det som är centralt för nyhetssajter känsla av trovärdighet.
 
@@ -28,7 +28,7 @@ För att uppnå studiens syfte har följande metoder använts.
 
 ####Färganalysen
 
-För att identifiera färgpaletten på nyhetssajternas header har chrometillägget colorpicker använts. Med hjälp av detta verktyg har färgkoderna för logotypen, bakgrunden, eventuella knappar och inramningar plockats ut och dessa presenteras i form av ett färgschema i resultatdelen. Därefter har https://convertingcolors.com använts för att analysera färgernas beståndsdelar.
+För att identifiera färgpaletten på nyhetssajternas header har chrometillägget colorpicker använts. Med hjälp av detta verktyg har färgkoderna för logotypen, bakgrunden, eventuella knappar och inramningar plockats ut och dessa presenteras i form av ett färgschema i resultatdelen. Därefter har https://convertingcolors.com och https://paletton.com/ använts för att analysera färgernas beståndsdelar.
 
 
 
@@ -107,7 +107,7 @@ Vid analysen har webbläsaren chrome används på en laptop med skärmbredden 12
 
 Resultat
 -----------------------
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+Under denna sektion av rapporten kommer studiens resultat presenteras utifrån de studerade objekten. Först presenteras en bild på headern, därefter resultatet av kategoriseringen av typografin och färgpaletten.
 ####Aftonbladets header
 [FIGURE src=image/aftonbladet.png?w=100%]
 **Typografi**
@@ -280,7 +280,7 @@ Titeln i Aftonbladet består av en kombination mellan helt svart och den ljusmä
    </td>
    <td>16px
    </td>
-   <td>dn 13px
+   <td>13px
    </td>
   </tr>
 </table>
@@ -656,7 +656,7 @@ Samtliga nyhetssajters titel har unika och specialbeställda typsnitt som har sk
 
 Tre av nyhetssajterna har olika typsnitt på titeln som består av serif och den övriga texten som har san serif. Två av sajterna har valt typsnittet san serif för hela headerelementet. Expressen sticker ut med valet av ett lutande typsnitt i titeln medan de övriga ha valt ett typsnitt med rakt uppstående tecken. Expressens val av ett lutande typsnitt kan ha som syfte dels att vara unik i den stora nyhetsflödet som finns tillgänglig på webben och dels ger det ett intryck att sträva framåt och ständigt vara aktuell.
 
-Utifrån studiens resultat kan det också konstateras att textelementen i headersektionerna på nyhetssajterna domineras av versaler, vilket kan bero på att man vill påkalla uppmärksamheten från besökarna och genom det förmå dem att stanna kvar på webbplatsen. Det är också viktigt att påpeka att detta uppercase fenomen enbart gäller enstaka ord och inte hela meningar, vilket kunde uppfattas som provocerande för användaren och skulle strida mot god praxis för bruket av det svenska språket, vilket en nyhetssajt som eftersträvar trovärdighet vill undvika. Den nyhetssajt som sticker ut i detta perspektiv är svt som har en titel som bara består av gemener, vilket kan tyckas strida mot grundläggande språkregler, samtidigt utgör loggan en förkortning av det längre Sveriges television vilket medför en friare tillämpning av språkreglerna. En annan tänkbar orsak till detta är att skapa ett vertikalt grid i kombination med den efterföljande texten NYHETER som medför ett mer harmoniskt intryck.
+Utifrån studiens resultat kan det också konstateras att textelementen i headersektionerna på nyhetssajterna domineras av versaler, vilket kan bero på att man vill påkalla uppmärksamheten från besökarna och genom det förmå dem att stanna kvar på webbplatsen. Det är också viktigt att påpeka att detta uppercase fenomen enbart gäller enstaka ord och inte hela meningar, vilket kunde uppfattas som provocerande för användaren och skulle strida mot god praxis för bruket av det svenska språket, vilket en nyhetssajt som eftersträvar trovärdighet vill undvika. Den nyhetssajt som sticker ut i detta perspektiv är svt som har en titel som bara består av gemener, vilket kan tyckas strida mot grundläggande språkregler, samtidigt utgör loggan en förkortning av det längre Sveriges television vilket medför en friare tillämpning av språkreglerna. En annan tänkbar orsak till detta är att skapa ett horisontellt grid i kombination med den efterföljande texten NYHETER som medför ett mer harmoniskt intryck.
 
 Den största variationen bland webbplatserna när det gäller typografin är relationen mellan titeln och den övriga texten i headerelementet. Störst skillnad är det hos DN och Aftonbladet med 4.3 gånger och minst hos Omni med 1,6. Att laborera med att laborera med fontstorleken kan skapa en visuell effekt som antingen kan skapa intresse eller förvirring och osäkerhet. Eftersom i stort sett samtliga sajter varierar sin fontstorlek bara mellan titeln och övrig text så lyckas på så sätt behålla en renodlad struktur samt ge ett trovärdigt och stabilt intryck.
 
