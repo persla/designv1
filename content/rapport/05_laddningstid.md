@@ -2,7 +2,7 @@
 ---
 
 # Prestanda hos svenska nyhetssajter
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/rapport/04_fargschema`.
+Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/rapport/05_laddningstid.md`.
 ## Syfte
 
 Syftet med den här rapporten är att analysera prestandan hos ett urval av svenska nyhetssajter
