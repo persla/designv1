@@ -54,6 +54,11 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Rapport färgschema.",
                     ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport prestanda.",
+                    ],
                 ],
             ],
         ],
