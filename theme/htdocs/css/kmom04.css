@@ -5582,7 +5582,7 @@ ul {
 i.fas:nth-child(1) {
   font-size: 30px;
 }
-figure.figure.right {
+.right {
   float: right;
   box-sizing: border-box;
 }

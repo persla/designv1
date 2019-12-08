@@ -1,30 +1,38 @@
 ---
-author: mos
+author: persla
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-11-03"
+    - bilder
+published: "2019-12-06"
 ---
-Mitt andra inlägg
+Puman på torget
 ==================================
 
 Här är mitt andra blogg inlägg.
-
+[FIGURE src=image/theme/puma.jpg?w=50% caption="Puman det senaste tillskottet av offentligkonst i Umeå"]
 Nu börjar jag bli varm i kläderna.
 
 <!--more-->
 
-Bilder skall fixas också, javisst ja, men dem innehåler inte blogg-mallen...
+Man bör skriva intressanta texter, då får man fler läsare, visst är det så?
 
 
 
-Rubrik 2 {#anchor-hit}
+Perspektiv 1 {#anchor-hit}
 -----------------------------------
 
 Text.
 
+Perspektiv 2 {#anchor-hit}
+-----------------------------------
 
+Text.
 
-### Rubrik 3 {#vad-som}
+Perspektiv 3 {#anchor-hit}
+-----------------------------------
+
+Text.
+
+Perspektiv 4 {#anchor-hit}
+-----------------------------------
 
 Text.
