@@ -5585,10 +5585,6 @@ i.fas:nth-child(1) {
   float: right;
   box-sizing: border-box;
 }
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
 iframe {
   max-width: 100%;
   max-height: 100%;
