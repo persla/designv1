@@ -11,9 +11,6 @@ Rådhuset i Umeå uppfördes efter 1888 års stadsbrand på samma plats som stad
 
 [FIGURE src=image/theme/stadshus.jpg?w=600&h=400&crop-to-fit&convolve=sharpen class="center" caption="En blå, vit och röd fotölj framför gamla rådhuset"]
 
-<!-- [FIGURE src=image/theme/stadshus.jpg?w=770&h=546&crop-to-fit&convolve=sharpen caption="En blå, vit och röd fotölj framför gamla rådhuset"]
-
-[FIGURE src=image/theme/stadshus.jpg?w=770&h=546&crop-to-fit&convolve=sharpen caption="En blå, vit och röd fotölj framför gamla rådhuset"] -->
 <!--more-->
 Läs om rådhusets historia nedan...
 
@@ -35,17 +32,15 @@ Entre detaljer {#anchor-hit2}
 -----------------------------------
 Inzoomning av entren till det gamla rådhuset
 [FIGURE src=image/theme/stadshus.jpg?w=1100&h=780&crop-to-fit&area=45,22,4,22&convolve=sharpen caption="Entren mot torget"]
-Text.
+
 
 Klockan har slagit {#anchor-hit3}
 -----------------------------------
 Gamla rådhusklockan i "modern" 3D-stil
 [FIGURE src=image/theme/stadshus.jpg?w=1100&h=780&crop-to-fit&area=0,28,87,28&convolve=sharpen&f=emboss caption="Klockan på det gamla rådhuset är snart fem över tolv, det är dags!"]
-Text.
 
 Som en tavla {#anchor-hit4}
 -----------------------------------
 
 Den vita fotöljen som tagen ur en tavla
 [FIGURE src=image/theme/stadshus.jpg?w=1100&h=780&crop-to-fit&area=81,7,6,2&convolve=sharpen&f=mean_removal caption="Den vita fotöljen"]
-text

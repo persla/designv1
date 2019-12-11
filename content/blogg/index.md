@@ -34,3 +34,5 @@ Dagens Bild
 ===========================
 
 Det här är en blogg som publicerar en bild varje dag utifrån olika perspektiv.
+
+Samtliga bilder är tagna utan filter med Galaxy s9+ som har en 12mp kamera.

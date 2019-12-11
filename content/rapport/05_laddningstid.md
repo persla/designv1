@@ -98,10 +98,10 @@ Samtliga mätningar är gjorda i webbläsaren Chrome och studiens rådata finns 
 Nedan kommer studiens resultat presenteras i form av en tabell som visar medelvärdet av de olika indikatorerna
 för respektive webbplats samt för samtliga objekt.
 
-Bild på webbplatserna
-[FIGURE caption="dn.se" src=image/dn1.png?w=180 class="right"]
-[FIGURE caption="expressen.se" src=image/expressen1.png?w=180 class="right"]
-[FIGURE caption="aftonbladet.se" src=image/aftonbladet1.png?w=180 class="right" ]
+<strong>De aktuella webbplatserna</strong>
+[FIGURE caption="dn.se" src=image/dn1.png&w=220&save-as=jpg&q=90&sharpen class="left"]
+[FIGURE caption="expressen.se" src=image/expressen1.png&w=220&save-as=jpg&q=90&sharpen class="left"]
+[FIGURE caption="aftonbladet.se" src=image/aftonbladet1.png&w=220&save-as=jpg&q=90&sharpen class="left" ]
 
 
 
@@ -226,7 +226,7 @@ Samtliga undersökta objekts laddningstid ligger inom ett tidsspann mellan 6,7 o
 
 Utifrån studiens resultat kan det konstateras att de största nyhetssajterna i Sverige renderar långsamt, vilket gör att det tar lång tid för användaren att få tillgång till fullständig interaktivitet på webbsidan, vilket i sin tur riskerar att besökarna tar sig vidare till sidor som har en snabbare nedladdningstid, vilket på sikt riskerar urholka demokratin. Detta gäller inte minst ungdomar som tenderar att snabbt gå vidare om inte sidorna responderar på ett snabbt och effektivt sätt.
 
-Den enskilt största faktorn bakom denna långa nedladdningstid är de resurskrävande reklaminslagen på nyhetssajterna. För att kunna driva en nyhetssajt krävs det inkomster och eftersom tiden för prenumerationer är förbi (även om det finns betalningstjänster på sajterna) är nyhetstjänsterna hänvisade till reklamintäkter som huvudsaklig finansieringskälla och därmed riskera man att hamna i en ond cirkel, där reklaminslagen blir mer och mer  resurskrävande med ökade nedladdningstider som följd och risken för att de lättrörliga besökarna flyr ökar.
+Den enskilt största faktorn bakom denna långa nedladdningstid är de resurskrävande reklaminslagen på nyhetssajterna. För att kunna driva en nyhetssajt krävs det inkomster och eftersom tiden för prenumerationer är förbi (även om det finns betalningstjänster på sajterna) är nyhetstjänsterna hänvisade till reklamintäkter som huvudsaklig finansieringskälla och därmed riskera man att hamna i en ond cirkel, där reklaminslagen blir mer och mer  resurskrävande med ökade nedladdningstider som följd och risken för att de lättrörliga besökarna flyr ökar. Förutom reklamen kan det också konstateras att nyhetssajterna är i sig mycket bildintensiva. I den visuella tiden vi lever säljer inte en nyhet utan bilder. Även detta fenomen bidrar till de långsamma nedladdningstiderna på respektive sajt.
 
 Ett annat intressant resultat från studien är de relativt låga betygen från PageSpeed Insights när det gäller mobilprestanda. Där den långa nedladdningstiderna är den största enskilt förklarande faktorn. Aftonbladet är sämst i klassen och får underkänt med ett snittbetyg på 33. Men även de andra får kritik och har stora utmaningar för att behålla besökarna, där ungdomarna är en stor grupp som uteslutande använder mobilen för att ta del  av nyheter. Utifrån studiens resultat är det relevant att väcka frågan om dessa medieföretag har hör talas om mobile first design.
 

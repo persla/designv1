@@ -5445,6 +5445,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   width: 69.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  padding-left: 10px;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5700,7 +5701,7 @@ iframe {
     right: 24px;
   }
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1254px) {
   .site-logo {
     display: none;
   }

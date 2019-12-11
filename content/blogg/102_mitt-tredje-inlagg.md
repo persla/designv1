@@ -6,7 +6,7 @@ published: "2019-12-08"
 ---
 Det nya vävs ihop med det gamla
 ==================================
-
+Stadsvy från älven.
 
 [FIGURE src=image/theme/vaven.jpg?w=600&h=400&crop-to-fit&convolve=sharpen&f=pixelate,4,1 class="center" caption="Vad är det för byggnader som döljer sig bakom den pixlade bilden?"]
 
