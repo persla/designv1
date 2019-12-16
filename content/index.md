@@ -14,13 +14,16 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/jag-barn.jpg?w=300" class="right" caption="Bild på mig när jag var liten"]
-
+<!-- [FIGURE src="image/jag-barn.jpg?w=300" class="right" caption="Bild på mig när jag var liten"] -->
+<!-- <div class="subhead" markdown="1"> -->
+<!-- <img class="circle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/62127/nasa-earth.jpg" alt="Earth as viewed from space"> -->
+<img class="circle" src="image/jag-barn.jpg" alt="Earth as viewed from space">
 Mitt namn är Lars Persson och bor i Umeå och jag arbetar som lärare på en gymnasieskola i stan.
 Jag har två barn, Hedda som jobbar som konsult och
 Tor som läser femte terminen på läkarprogrammet.
+<!-- </div> -->
+
 
 Trots en lång karriär i skolan så trivs jag med mitt jobb, men söker hela tiden
 nya utmaningar. Därför blev jag glad när jag såg att det fanns en utbildning i

@@ -1,0 +1,133 @@
+/*!
+ * LESS version of the stylesheet for design kmom06-designelement.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "normalize.css/normalize.less";
+// @import "module/kmom02.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base_default.less";
+// @import "base/base.less";
+@import "base/base_kmom06.less";
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid6.less";
+
+@import "src/@desinax/typographic-grid/less/typography-font-families.less";
+@import "src/@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "src/@desinax/figure/less/asciinema.less";
+@import "src/@desinax/figure/less/codepen.less";
+@import "src/@desinax/figure/less/figure.less";
+
+// Activate the grid base font
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+// theme\src\@desinax\typographic-grid\less\typography.less
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout_default.less";
+//@import "layout/responsive_default.less";
+// @import "layout/layout.less";
+@import "layout/responsive6.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ // @img-flash: "image/theme/lapport.png?width=1100&height=150&crop-to-fit&area=0,0,30,0";
+ @fontFamilyHeadings:  "Tahoma" ,sans-serif;
+ @fontFamilyBody:       "Tahoma" ,sans-serif;
+ @fontFamilyCode:      @fontFamilyCourier;
+
+ @bgColorHtml: #ccc;
+ @bgColorBody: #ccc;
+ @colorBody: #333;
+ @bginnerWrap: #F5F5F5;
+ @bginnerWrapFooter: @bginnerWrap;
+ @innerWrapFooter: @colorBody;
+ @hamburgerMenu: black;
+ @bginnerWrapHeader: @bginnerWrap;
+ @innerWrapHeader: @colorBody;
+ @bgregionMain: @bginnerWrap;
+ @bgregionSidebar: @bginnerWrap;
+ @bgregionAfterMain: @bginnerWrap;
+
+ @colorH1BorderBottom: linear-gradient(to right, #ccc, #333, #ccc);
+ @colorH2BorderBottom: #113909;
+ @colorH3BorderBottom: #113909;
+ @colorH4BorderBottom: #113909;
+ @colorH5BorderBottom: #113909;
+ @colorH6BorderBottom: #113909;
+
+h1 {
+    // color: #333333;
+    // text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.circle {
+  background: #456BD9;
+  border-radius: 50%;
+  float: right;
+  height: 25vw;
+  margin-left: 1em;
+  margin-left: calc(1em + 2vw);
+  object-fit: cover;
+  shape-outside: circle(50%);
+  width: 25vw;
+}
+
+.rm-desktop li a:hover,
+.rm-desktop li.current-menu-item a {
+  text-decoration: none;
+}
+
+.rm-desktop li a {
+    color: gray;
+}
+
+.site-logo-text a:nth-of-type(even) {
+  color: lightsteelblue;
+}

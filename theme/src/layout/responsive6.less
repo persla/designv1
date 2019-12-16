@@ -1,0 +1,96 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+
+    .rm-max.rm-navbar {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1254px) {
+    .site-logo {
+        display: none;
+    }
+
+
+    .rm-max.rm-navbar {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    }
+
+    .rm-default li {
+        padding: 1px;
+        text-decoration: none;
+        // background-color: green;
+        // color: #ddd;
+    }
+
+    .site-logo-text a {
+        font-size: 1.5em;
+    }
+    .rm-default a {
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 930px) {
+    .rm-small {
+        display: block;
+   }
+
+   .rm-max.rm-navbar {
+   position: absolute;
+   top: 16px;
+   right: 24px;
+   }
+
+   .site-logo-text a {
+       font-size: 1em;
+   }
+
+   .region-header-col-2 {
+       display: none;
+   }
+
+   .byline {
+       display: none;
+   }
+
+   li.level-0 {
+       display: none;
+   }
+
+   figure.figure.right {
+      box-sizing: border-box;
+      display: block;
+      float: none;
+  }
+
+   .footer-column-1, .footer-column-2 {
+   border-right: 0px;
+   // border-bottom: 1px solid #666;
+   }
+
+   select {
+       // width: 95%;
+   }
+
+   fieldset {
+   padding: 0px;
+   }
+
+   tr:nth-child(3) {
+   display: none;
+   }
+
+}
