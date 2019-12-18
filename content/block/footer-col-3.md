@@ -1,3 +1,8 @@
-#### Footer col 3
+#### Design i fontawesome
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+
+<i class="fas fa-atom"></i> Texteditorn
+
+<i class="fas fa-balance-scale"></i> Balans
+
+<i class="fas fa-laptop-code"></i> Medlet

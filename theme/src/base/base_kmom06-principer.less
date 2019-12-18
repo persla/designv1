@@ -1,0 +1,104 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+// @bgColorHtml: #424242;
+// @bgColorBody: #E8E8E8;
+// @colorBody: #333;
+// @bginnerWrap: #F5F5F5;
+// @bginnerWrapFooter: #113909;
+// @innerWrapFooter: #ddd;
+// @hamburgerMenu: black;
+// @bginnerWrapHeader: @bginnerWrap;
+// @innerWrapHeader: @colorBody;
+// @bgregionMain: @bginnerWrap;
+// @bgregionSidebar: @bginnerWrap;
+// @bgregionAfterMain: @bginnerWrap;
+// @fontFamilyBody: "EB+Garamond" ,sans-serif;
+
+html {
+    overflow-y: scroll;
+    // overflow-x: hidden;
+    // background-color: @bgColorHtml;
+    // background: url("image/theme/stones.jpg") center center cover no-repeat fixed;
+}
+
+body {
+    // max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    // color: @colorBody;
+    // background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    // background-color: @bgColorBody;
+
+
+    // font: 100.01%/1 @fontFamilyBody;
+    // line-height: 1.5;
+}
+
+.inner-wrap {
+    // background-color: @bginnerWrap;
+
+}
+
+.rm-default li {
+    // background-color: @bginnerWrap;
+    color: @colorBody;
+}
+
+.inner-wrap-header {
+    // background-color: @bginnerWrapHeader;
+    color: @innerWrapHeader;
+}
+
+.region-main {
+    // background-color: @bgregionMain;
+
+}
+.region-sidebar-left,
+.region-sidebar-right, {
+    // background-color: @bgregionSidebar;
+}
+
+.region-after-main {
+    // background-color: @bgregionAfterMain;
+}
+
+.region-flash {
+    // background-color: @bgColorBody;
+    // background-image: url("lapport.png?width=1100&height=150");
+    // <img src="http://localhost:8080/dbwebb-kurser/design/me/redovisa/htdocs/image/theme/leaf_40x40.png" alt="Löv-bild">
+    // htdocs\img\theme\lapport.png
+    // htdocs\css\kmom03_v2.min.css
+    // height: 150px;
+
+}
+
+.inner-wrap-footer {
+    background-color: @bginnerWrapFooter;
+    color: @innerWrapFooter;
+}
+
+// .row {
+//     -webkit-box-shadow: 0 10px 6px -6px #777;
+//    -moz-box-shadow: 0 10px 6px -6px #777;
+//     box-shadow: 0 10px 6px -6px #777;
+// }
+// .rm-max .rm-small .rm-button {
+//     color: @hamburgerMenu;
+// }
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+// .row {
+//     display: block;
+//     width: 100%;
+// }
+
+// .row::after {
+//     content:"";
+//     display:block;
+//     clear: both;
+// }

@@ -1,3 +1,7 @@
-#### Footer col 1
+#### Intressen i fontawesome
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+<i class="fas fa-plane-departure"></i> Resa
+
+<i class="fas fa-film"></i> Film
+
+<i class="fas fa-archway fa-sm"></i> Historia

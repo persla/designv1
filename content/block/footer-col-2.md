@@ -1,3 +1,6 @@
-#### Footer col 2
+#### Me in fontawesome
+<i class="fas fa-thermometer-empty"></i> Norrland
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+<i class="fas fa-bicycle"></i> Transportmedel
+
+<i class="fas fa-coffee"></i> Livsnödvändigt
