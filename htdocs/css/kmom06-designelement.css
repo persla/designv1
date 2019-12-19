@@ -5381,10 +5381,17 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-bottom: 24px;
 }
 .inner-wrap-header .row {
-  max-width: 100%;
+  margin: 0;
+  width: 100%;
 }
 .inner-wrap-footer .row {
-  max-width: 100%;
+  margin: 0;
+  width: 100%;
+}
+.region-header,
+.region-flash {
+  margin: 0;
+  width: 100%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
