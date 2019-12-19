@@ -75,6 +75,16 @@ return [
                         "url" => "rapport/designprincip",
                         "title" => "Rapport designprinciper.",
                     ],
+                    [
+                        "text" => "Kmom06-principer",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport designprinciper.",
+                    ],
+                    [
+                        "text" => "Kmom06-element",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport designelement.",
+                    ],
                 ],
             ],
         ],
