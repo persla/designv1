@@ -332,7 +332,7 @@ template {
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/ebgaramond/v12/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI96.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v13/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI96.ttf) format('truetype');
 }
 html {
   overflow-y: scroll;
@@ -5566,9 +5566,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .site-logo {
   display: none;
 }
-article {
-  text-align: justify;
-}
 .rm-default li {
   text-decoration: none;
 }
@@ -5955,4 +5952,8 @@ h1 {
 }
 .site-logo-text a:nth-of-type(even) {
   color: lightsteelblue;
+}
+article {
+  padding-right: 50px;
+  text-align: justify;
 }

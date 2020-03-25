@@ -84,6 +84,11 @@ return [
                         "url" => "rapport/designelement",
                         "title" => "Rapport designelement.",
                     ],
+                    [
+                        "text" => "Kmom09-webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Rapport webbplatsdesign.",
+                    ],
                 ],
             ],
         ],

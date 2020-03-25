@@ -51,6 +51,11 @@ return [
                         "url" => "redovisning/kmom06",
                         "title" => "Redovisning för kmom06.",
                     ],
+                    [
+                        "text" => "Kmom09-webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Rapport webbplatsdesign.",
+                    ],
                 ],
             ],
         ],
